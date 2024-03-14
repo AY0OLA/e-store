@@ -1,0 +1,45 @@
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  .content {
+    margin-left: 1.5rem;
+    .category {
+      text-transform: uppercase;
+    }
+    .rate {
+      font-weight: 600;
+    }
+    .input {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      input {
+        width: 50px;
+        text-align: center;
+        margin-right: 0.6rem;
+        outline: none;
+        border: none;
+        background: skyblue;
+      }
+      span {
+        font-weight: 800;
+        margin-right: 0.5rem;
+      }
+      .price {
+        margin-right: 0.5rem;
+      }
+      .equal {
+        font-weight: 500;
+        font-size: 2rem;
+        margin-bottom: 0.8rem;
+      }
+      .total {
+        font-weight: 600;
+        margin-bottom: 0.8rem;
+        font-size: 2rem;
+      }
+    }
+  }
+}
